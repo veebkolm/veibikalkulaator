@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>VapeCalc</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head>
+  
+    <meta charset="UTF-8">
+   <meta name="description" content="Vedeliku segamise kalkulaator">
+  <meta name="keywords" content="vape,veip,vedelik,booster,maitsestaja,veibivedelik,e-sigarett">
+  <meta name="author" content="Erki Aas">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="et">
+
+</head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700" rel="stylesheet">
+<body>
+<div class="wrapper">
+  <h1> Vedelikukalkulaator</h1>
+  <br>
+  <br>
+  <label>Pudeli suurus:
+<input type="number" id="pudel"></input> ml
+</label>
+<br>
+<label for="baasi_tugevus">Baasi nikotiinisisaldus:
+  <input type="number" id="baasi_tugevus" value="0"></input> mg/ml</label>
+<br>
+<label>Boosteri nikotiinisisaldus:
+<input type="number" id="boosteri_tugevus" value="20"></input> mg/ml
+</label>
+<br>
+<label>Soovitud nikotiinisisaldus:
+<input type="number" id="soovitud_tugevus"></input> mg/ml
+</label>
+<br>
+
+<br>
+<button onclick="arvutaBooster()">
+Arvuta
+</button>
+<p id="baasi"></p>
+<p id="boosterit"></p>
+</wrapper>
+<div class="footnote">
+  Kasutame küpisiseid. Autor <a href="mailto:erki@veebkolm.ee">Erki Aas</a>.
+</div>
+</body>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

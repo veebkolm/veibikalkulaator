@@ -1,0 +1,27 @@
+.wrapper {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  background: white;
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px;
+      min-height: 400px;
+}
+input {
+  margin-bottom: 5px;
+}
+button {
+  margin-top: 20px;
+  
+}
+body {
+  background-image: url('http://legendvape.eu/2x3.svg');
+}
+.footnote {
+    position: absolute;
+    top: 385px;
+    font-size: 9px;
+    text-align: center;
+    width: 125%;
+}
